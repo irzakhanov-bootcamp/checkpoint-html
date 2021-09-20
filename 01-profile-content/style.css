@@ -81,9 +81,26 @@ h1 {
 }
 
 .menu {
-  text-align: center;
+  display: flex;
 }
 
 .menu li {
-  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
 }
